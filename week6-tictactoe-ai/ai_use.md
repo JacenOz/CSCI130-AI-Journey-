@@ -1,0 +1,5 @@
+# Part 5 — How I Used AI
+
+- **What I asked for and what I got:** I used AI to help structure the training and evaluation loops in Python, set up the interactive play loop for Part 4, and check my explanations for why the agent's Q-table misses so many legal board positions.
+- **One suggestion I did not take, and why:** I adjusted the code comments to be shorter and more direct, and ran the actual training and 5-game human match myself in Colab so all numbers and observations in the README come from my own run.
+- **One thing in this assignment I still cannot fully explain:** Even though I understand that training against a random opponent leaves gaps in the Q-table, I still couldn't explain off the top of my head how to train the agent against *itself* (self-play) without it getting stuck in a loop where both sides only repeat one boring draw pattern.
